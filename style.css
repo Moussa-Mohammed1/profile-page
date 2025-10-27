@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(248, 246, 246);
+    font-family: "poppins", sans-serif;
+}
+.page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart{
+    display: flex;
+    flex-direction: row;  
+    gap: 1em;
+    padding-top: 3em;
+    
+}
+.cart h2{
+    font-size: 5em;
+}
+.cart i{
+    font-size: 5em;
+
+}
+.fa-camera{
+    font-size: 5em;
+    padding-left: 1rem;
+    padding-top: 0.6em;
+}
+.container-img img{
+    width: 20rem;
+    border-radius: 50%;
+    border:2px solid white ;
+    transform: rotate(-30deg);
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-img{
+    width: 22rem;
+    height: 22rem;
+    background: linear-gradient(rgb(174, 12, 120), rgb(237, 186, 76));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    transform: rotate(30deg);
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.profile-info h1 {
+    font-size: 3em;
+}
+.rate{
+    font-size: 3em;
+}
+.one{
+    color: yellow;
+}
+.two{
+    color:yellow;
+}
+.three{
+    color: yellow;
+}
+.four:hover{
+    color: rgb(223, 223, 102);
+    transition: all 0.3s ease;
+}
+.four:hover{
+    color: rgb(223, 223, 102);
+    transition: all 0.3s ease;
+}
+.five:hover{
+    color: rgb(223, 223, 102);
+    transition: all 0.3s ease;
+}
+.profile-info p{
+    font-size: 2.5em;
+    opacity: 0.8;
+}
+.description{
+    width: 100%;
+}
+.description p{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1em;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 5em;
+}
+#post{
+    font-size: 4rem;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 25px;
+    border: 1px solid black ;
+    transition: all 0.3s ease;
+}
+#message{
+    font-size: 4rem;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 25px;
+    border: 1px solid black ;
+    transition: all 0.3s ease;
+}
+#message:hover{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+#post:hover{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+.fa-chevron-down{
+    font-size: 3rem;
+    transition: all 0.3s ease;
+}
+.fa-chevron-down:active{
+    transform: rotate(90deg);
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 6em;
+}
+.posts{
+    background: linear-gradient(cornflowerblue, rgb(48, 130, 198));
+    border-radius: 50%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 6px solid white;
+    transform: translateY(-20px);
+    transition: all 0.5s ease;
+}
+.posts:hover{
+    box-shadow: 1px 8px 16px rgb(193, 152, 152);
+    transform: translateY(-40px);
+    background: rgb(35, 95, 160);
+     transition: all 0.5s ease;
+}
+.followers{
+    background: linear-gradient(rgb(255, 127, 127), red);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid white;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+}
+.followers:hover{
+    box-shadow: 1px 8px 16px rgb(193, 152, 152);
+    transform: translateY(-40px);
+    background: rgb(216, 33, 76);
+}
+.followers i, .followers p, .posts i, .posts p, .mobile i, .mobile p{
+    color: white;
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background:linear-gradient(rgb(27, 200, 157), rgb(132, 134, 253));
+    border: 6px solid white;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+}
+.mobile:hover{
+    box-shadow: 8px 16px 25px rgb(193, 152, 152);
+    transform: translateY(-40px);
+    background: rgb(19, 76, 137);
+}
+.divider-line{
+    height: 2px;
+    background: black;
+    /* margin-bottom: 3em;
+    margin-top: 2em; */
+    margin: 2em;
+    opacity: 0.5;
+}
+.bottom-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    margin-top: 1em;
+    gap: 2em;
+    
+}
+.bottom-links i:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
